@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/188ed9ca64.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+
+    <title>Directory</title>
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid ">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#"><img
+                        src="https://d19m59y37dris4.cloudfront.net/directory/1-4-1/img/logo.svg"
+                        alt="Directory logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <form class="form-inline my-2 my-lg-0 position-relative">
+                    <input class="search-engine form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">
+                    
+                </form>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item ">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Template
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Docs
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sign up</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sign in</a>
+                        </li>
+                        <li>
+                            <button type="button" class="btn btn-primary">Add Listing</button>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
+
+        </div>
+
+
+    </header>
+
+
+    <main>
+        <section id="local">
+            
+
+            <div class="container">
+
+                <div class="row ">
+                    <div class="col-lg-8 col-md-12 ">
+                        <div class="textlocal">
+                            <h6>THE BEST HOLIDAY EXPERIENCE</h4>
+                                <h1 class="text-white font-weight-bold">Stay like a local</h1>
+                        </div>
+                    </div>
+                    <div class="search-bar mt-5 p-3 p-lg-1 pl-lg-4 d-lg-none d-md-block d-sm-block">
+                        <form action="#">
+                          <div class="row">
+                            <div class="col-lg-4 d-flex align-items-center form-group">
+                              <input type="text" name="search" placeholder="What are you searching for?" class="forborder form-control border-0 shadow-0">
+                            </div>
+                            <div class="col-lg-3 d-flex align-items-center form-group">
+                              <div class="input-label-absolute input-label-absolute-right w-100">
+                                <label for="location" class="label-absolute"><span class="sr-only">City</span></label>
+                                <input type="text" name="location" placeholder="Location" id="location" class="forborder form-control border-0 shadow-0">
+                              </div>
+                            </div>
+                            <div class="col-lg-3 d-flex align-items-center form-group ">
+                                <input type="text" name="location" placeholder="Category" id="Category" class="category forborder form-control border-0 shadow-0"></div></div>
+                              <div class="col-lg-2">
+                                <button type="submit" class="submtn btn btn-primary btn-block rounded-xl h-100">Search </button>
+                              </div>
+                            </div>
+                            
+                          </div>
+                        </form>
+                      </div>
+
+                    <div class="col-lg-8 d-lg-block d-md-none d-sm-none">
+                        <div class="input-group mb-3 position-relative ">
+                            <input type="text" class="form-control rmvborder" placeholder="What are you searching for?"
+                                aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <input type="text" class="form-control rmvborder" placeholder="Location"
+                                aria-label="Recipient's username" aria-describedby="button-addon2">
+                            
+                            <div class="dropdown">
+                                <a class="btn btn-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Category
+                                </a>
+
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Restaurants</a>
+                                    <a class="dropdown-item" href="#">Hotels</a>
+                                    <a class="dropdown-item" href="#">Cafes</a>
+                                    <a class="dropdown-item" href="#">Garages</a>
+                                </div>
+                            </div>
+                            <div class="input-group-append">
+                                <button class="btn btn-primary" type="button" id="button-addon2">Search</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="booking">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <div class="bookingtxt">
+                            <h5 class="font-weight-bold">ONE-OF-A-KIND VACATION RENTALS</h5>
+                            <h1 class="font-weight-bolder">Booking with us is easy</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 text-center">
+                        <div class="content">
+                            <i class="far fa-map"></i>
+                            <h3 class="font-weight-bold">Find the perfect rental</h3>
+                            <p class="text-muted">One morning, when Gregor Samsa woke from troubled dreams, he found
+                                himself transformed in his bed in</p>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4 text-center">
+                        <div class="content">
+                            <i class="far fa-credit-card"></i>
+                            <h3 class="font-weight-bold">Find the perfect rental</h3>
+                            <p class="text-muted">One morning, when Gregor Samsa woke from troubled dreams, he found
+                                himself transformed in his bed in</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 text-center">
+                        <div class="content">
+                            <i class="far fa-heart"></i>
+                            <h3 class="font-weight-bold">Find the perfect rental</h3>
+                            <p class="text-muted">One morning, when Gregor Samsa woke from troubled dreams, he found
+                                himself transformed in his bed in</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 d-md-flex d-lg-flex justify-content-between ">
+                        <div class="bookingtxt2 ">
+                            <h4>STAY AND EAT LIKE A LOCAL</h4>
+                            <h1>Our guides</h1>
+                        </div>
+
+                        <div class="bookinglink">
+                            <a class="text-muted" href="#">See all guides<i class="ml-2 fas fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                    
+
+
+                    <div class="col-lg-2 col-md-6 mx-auto p-0">
+                        <div class="photo position-relative">
+                            <img class="img-fluid rounded" src="img/new-york.jpg">
+                            <div class="phototxt position-absolute">
+                                <h6 class="font-weight-bold">New York</h6>
+                                <p>The big apple</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 mx-auto p-0 ">
+                        <div class="photo position-relative notdphone">
+                            <img class="img-fluid rounded" src="img/paris.jpg">
+                            <div class="phototxt position-absolute">
+                                <h6 class="font-weight-bold">Paris</h6>
+                                <p>Artist capital of Europe</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 mx-auto p-0  ">
+                        <div class="photo position-relative notd">
+                            <img class="img-fluid rounded" src="img/prague.jpg">
+                            <div class="phototxt position-absolute">
+                                <h6 class="font-weight-bold">Barcelona</h6>
+                                <p>Dalí, Gaudí, Barrio Gotico</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-2  mx-auto p-0 " >
+                        <div class="photo position-relative notd">
+                            <img class="img-fluid rounded" src="img/prague.jpg">
+                            <div class="phototxt position-absolute">
+                                <h6 class="font-weight-bold">Prague</h6>
+                                <p>City of hundred towers</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-2  mx-auto p-0 ">
+                        <div class="photo position-relative notd">
+                            <img class="img-fluid rounded" src="img/new-york.jpg">
+                            <div class="phototxt position-absolute">
+                                <h6 class="font-weight-bold">New York</h6>
+                                <p>The big apple</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-12 d-md-flex d-lg-flex justify-content-between ">
+                        <div class="bookingtxt3 ">
+                            <h4>HURRY UP, THESE ARE EXPIRING SOON.</h4>
+                            <h1>Last minute deals</h1>
+                        </div>
+
+                        <div class="bookinglink">
+                            <a class="text-muted" href="#">See all guides<i class="ml-2 fas fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                   
+
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-3  col-md-6">
+                        <div class="card position-relative">
+                            <div class="profile-image">
+                                <img class="primg" src="img/pamela.jpg">
+                                <p>Pamela</p>
+                            </div>
+                            <i class=" profile far fa-heart position-absolute"></i>
+                            <img src="img/first.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Cute Quirky Garden apt, NYC adjacent</h5>
+                                <div class="feedback d-flex justify-content-between">
+                                    <p class="card-text">Private room</p>
+                                    <p class="stars card-text position-absolute"><i class="fa fa-star text-warning"><i
+                                                class="fa fa-star text-warning"></i><i
+                                                class="fa fa-star text-warning"></i><i
+                                                class="fa fa-star text-warning"></i><i
+                                                class="fa fa-star text-warning"></i></i></p>
+                                </div>
+                                <div class="price ">
+                                    <span class="number">$80</span>
+                                    <span class="text-muted ">per night</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3  col-md-6">
+                        <div class="card position-relative notdphone">
+                            <div class="profile-image">
+                                <img class="primg" src="img/John.jpg">
+                                <p>John</p>
+                            </div>
+                            <i class="profile far fa-heart position-absolute"></i>
+                            <img src="img/second.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Cute Quirky Garden apt, NYC adjacent</h5>
+                                <div class="feedback d-flex justify-content-between">
+                                    <p class="card-text">Entire apartment</p>
+                                    <p class="stars card-text position-absolute"><i class="fa fa-star text-warning"><i
+                                                class="fa fa-star text-warning"></i><i
+                                                class="fa fa-star text-warning"></i><i
+                                                class="fa fa-star text-warning"></i><i
+                                                class=" text-muted fa fa-star "></i></i></p>
+                                </div>
+                                <div class="price ">
+                                    <span class="number">$121</span>
+                                    <span class="text-muted ">per night</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3  col-md-6">
+                        <div class="card position-relative notd">
+                            <div class="profile-image">
+                                <img class="primg" src="img/Julie.jpg">
+                                <p>Julie</p>
+                            </div>
+                            <i class=" profile far fa-heart position-absolute"></i>
+                            <img src="img/third.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Modern Apt - Vibrant Neighborhood!</h5>
+                                <div class="feedback d-flex justify-content-between">
+                                    <p class="card-text">Entire apartment</p>
+                                    <p class="stars card-text position-absolute"><i class="fa fa-star text-warning"><i
+                                                class="fa fa-star text-warning"></i><i
+                                                class="fa fa-star text-warning"></i><i
+                                                class=" text-muted fa fa-star "></i><i
+                                                class=" text-muted fa fa-star "></i></i></p>
+                                </div>
+                                <div class="price ">
+                                    <span class="number">$75</span>
+                                    <span class="text-muted ">per night</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card position-relative notd ">
+                            <div class="profile-image">
+                                <img class="primg" src="img/Barbora.jpg">
+                                <p>Barbora</p>
+                            </div>
+                            <i class="profile far fa-heart position-absolute "></i>
+                            <img src="img/forth.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title ">Sunny Private Studio-Apartment</h5>
+                                <div class="feedback d-flex justify-content-between">
+                                    <p class="card-text">Shared room</p>
+                                    <p class="stars card-text position-absolute"><i class="fa fa-star text-warning"><i
+                                                class="fa fa-star text-warning"></i><i
+                                                class="fa fa-star text-warning"></i><i
+                                                class="fa fa-star text-warning"></i><i
+                                                class=" text-muted fa fa-star "></i></i></p>
+                                </div>
+                                <div class="price ">
+                                    <span class="number">$93</span>
+                                    <span class="text-muted ">per night</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="ready">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 ">
+                        <div class="readycontent">
+                            <h1>Ready for your next holidays?</h1>
+                            <button type="button" class="appbtn btn btn-light font-weight-bold">GET STARTED</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimony">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <div class="testimony-text">
+                            <h5>TESTEMONIALS</h5>
+                            <h2 class="font-weight-bold">Our dear customers said about us</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="card rounded-lg">
+                            <div class="card-body position-relative">
+                                <i class="fas fa-quote-right"></i>
+
+                                <p class="card-text text-muted">Lorem Ipsum is simply dummy text of the printing and
+                                    typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.
+                                </p>
+                                <p class="font-weight-bold">Jessica Watson</p>
+                                <img src="img/testimony-section.jpg" class=" testiomony-photo position-absolute">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="card">
+                            <div class="card-body position-relative notdphone">
+                                <i class=" fas fa-quote-right"></i>
+
+                                <p class="card-text text-muted">Lorem Ipsum is simply dummy text of the printing and
+                                    typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.
+                                </p>
+                                <p class="font-weight-bold">Jessica Watson</p>
+                                <img src="img/testimony-section.jpg" class="testiomony-photo position-absolute">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="blog">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12  d-md-flex d-lg-flex justify-content-between ">
+                        <div class="blogtxt ">
+                            <h5>STORIES FROM AROUND THE GLOBE</h5>
+                            <h2>From our travel blog</h2>
+                        </div>
+
+                        <div class="bloglink">
+                            <a class="text-muted" href="#">See all guides<i class="ml-2 fas fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                   
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mt-4">
+                        <div class="card shadow">
+                            <a href="#"><img src="img/third.jpg" class="card-img-top"></a>
+                            <div class="card-body">
+                                <a href="#" class=" firstlink text-muted">TRAVEL</a>
+                                <a href="#" class="secondlink d-block">Autumn fashion tips and tricks</a>
+                                <p class="text-muted"><i class="far fa-clock text-muted"></i>January 16, 2016</p>
+                                <p class="card-text text-muted">Pellentesque habitant morbi tristique senectus.
+                                    Vestibulum tortor quam, feugiat vitae, ultricies ege...</p>
+                                <a href="#" class="thirdlink">READ MORE<i
+                                        class="fas fa-long-arrow-alt-right ml-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-4">
+                        <div class="card shadow">
+                            <a href="#"><img src="img/sixth.jpg" class="card-img-top"></a>
+                            <div class="card-body">
+                                <a href="#" class=" firstlink text-muted">LIVING</a>
+                                <a href="#" class="secondlink d-block ">Newest photo apps </a>
+                                <p class="text-muted"><i class="far fa-clock text-muted"></i>January 16, 2016</p>
+                                <p class="card-text text-muted">Pellentesque habitant morbi tristique senectus.
+                                    Vestibulum tortor quam, feugiat vitae, ultricies ege...</p>
+                                <a href="#" class="thirdlink">READ MORE<i
+                                        class="fas fa-long-arrow-alt-right ml-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-4">
+                        <div class="card">
+                            <a href="#"><img src="img/seventh.jpg" class="card-img-top"></a>
+                            <div class="card-body shadow">
+                                <a href="#" class="firstlink text-muted">TRAVEL</a>
+                                <a href="#" class="secondlink  d-block">Best books about Photography</a>
+                                <p class="text-muted"><i class="far fa-clock text-muted"></i>January 16, 2016</p>
+                                <p class="card-text text-muted">Pellentesque habitant morbi tristique senectus.
+                                    Vestibulum tortor quam, feugiat vitae, ultricies ege...</p>
+                                <a href="#" class="thirdlink ">READ MORE<i
+                                        class="fas fa-long-arrow-alt-right ml-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        
+
+    </main>
+
+    <footer>
+        <section id="up">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-12">
+                        <div class="footercontent">
+                            <h5>DIRECTORY</h5>
+                            <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <div class="footericons">
+                                <ul>
+                                    <li><a class="text-muted " href=""><i class=" fab fa-twitter"></i></a></li>
+                                    <li><a class="text-muted " href=""><i class=" fab fa-facebook"></i></a></li>
+                                    <li><a class="text-muted " href=""><i class="fab fa-instagram"></i></i></a></li>
+                                    <li><a class="text-muted " href=""><i class="fab fa-pinterest"></i></i></a></li>
+                                    <li><a class="text-muted " href=""><i class="fab fa-vimeo"></i></a></li>
+
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6">
+                        <div class="footercontent">
+                            <h5>RENTALS</h5>
+                            <ul>
+                                <li><a class="text-muted" href="#">Rooms</a></li>
+                                <li><a class="text-muted" href="#">Map on top</a></li>
+                                <li><a class="text-muted" href="#">Side map</a></li>
+                                <li><a class="text-muted" href="#">No map</a></li>
+                                <li><a class="text-muted" href="#">Room detail</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6">
+                        <div class="footercontent">
+                            <h5>PAGES</h5>
+                            <ul>
+                                <li><a class="text-muted" href="#">Comparison<span class="badge">New</span></a></li>
+                                <li><a class="text-muted" href="#">Team<span class="badge">New</span></a></li>
+                                <li><a class="text-muted" href="#">Contact</a> </li>
+                                <li><a class="text-muted" href="#">Pricing</a></li>
+                                <li><a class="text-muted" href="#">Text page</a></li>
+                                <li><a class="text-muted" href="#">F.A.Q.s</a> </li>
+                                <li><a class="text-muted" href="#">Coming soon</a></li>
+
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <div class="footercontent">
+                            <h5>DAILY OFFERS & DISCOUNTS</h5>
+                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At itaque
+                                temporibus.</p>
+                            <div class="input-group footer-input ">
+                                <input type="text" class="form-control bg-transparent  border-right-0" placeholder="Your Email Address"
+                                    aria-label="Your Email Address" aria-describedby="button-addon2">
+                                <div class="input-group-append">
+                                    <button class="footer-btn btn btn-outline-dark border-left-0" type="button"
+                                        id="button-addon2"><i class="fa fa-paper-plane text-lg"></i></button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <div class="copyright py-3 bg-dark">
+            <div class="container-fluid">
+                <div class="row  ">
+                    <div class="col-lg-10 offset-lg-1 col-md-12 ">
+                        <div class="endcontent d-md-flex d-lg-flex justify-content-between ">
+                            <p class="text-gray-300">© 2019 Your company. All rights reserved.</p>
+
+                            <div class="credit-cards">
+                                <ul>
+                                    <li><img src="https://d19m59y37dris4.cloudfront.net/directory/1-4-1/img/visa.svg"
+                                            alt=""></li>
+                                    <li><img src="https://d19m59y37dris4.cloudfront.net/directory/1-4-1/img/mastercard.svg"
+                                            alt=""></li>
+                                    <li><img src="https://d19m59y37dris4.cloudfront.net/directory/1-4-1/img/paypal.svg"
+                                            alt=""></li>
+                                    <li><img src="https://d19m59y37dris4.cloudfront.net/directory/1-4-1/img/western-union.svg"
+                                            alt=""></li>
+                                </ul>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </footer>
+
+    <div class="fixedbutton">
+        <button type="button" class="btn"><i class="fas fa-tools"></i></button>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
